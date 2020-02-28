@@ -13,6 +13,8 @@ public class PrintNumbers {
 	int number;
 	public void printNumbers(int number)
 	{
+		
+		
 		for (int i=0; i<=10; i++)
 		{
 			if(i%number==0)
