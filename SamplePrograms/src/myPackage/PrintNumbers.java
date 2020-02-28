@@ -6,21 +6,31 @@ public class PrintNumbers {
 		// TODO Auto-generated method stub
 
 		PrintNumbers print = new PrintNumbers();
-		print.printNumbers();
-
+		print.printNumbers(2);
+		print.printNumbers(2,5);
 	}
 
-	public void printNumbers()
+	int number;
+	public void printNumbers(int number)
 	{
 		for (int i=0; i<=10; i++)
 		{
-			if(i%3==0)
+			if(i%number==0)
 			{
 				System.out.println("the  numbers are "+ i);
-				
 			}
 		}
-
-
 	}
+	
+	public void printNumbers(int number, int divNumber)
+	{
+		for (int i=0; i<=divNumber; i++)
+		{
+			if(i%number==0)
+			{
+				System.out.println("the  numbers are "+ i);
+			}
+		}
+	}
+
 }
