@@ -6,6 +6,7 @@ public class PrintNumbers {
 		// TODO Auto-generated method stub
 
 		PrintNumbers print = new PrintNumbers();
+		//Overloaded numbers
 		print.printNumbers(2);
 		print.printNumbers(2,5);
 	}
