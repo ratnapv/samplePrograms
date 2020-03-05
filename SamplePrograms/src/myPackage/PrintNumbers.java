@@ -31,7 +31,7 @@ public class PrintNumbers {
 		{
 			if(i%number==0)
 			{
-				//print only the numbers that are divisable by given number
+				//print only the numbers that are divisible by given number
 				System.out.println("the  numbers are "+ i);
 			}
 		}
