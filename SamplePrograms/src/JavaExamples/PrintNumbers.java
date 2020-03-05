@@ -1,4 +1,4 @@
-package myPackage;
+package JavaExamples;
 
 public class PrintNumbers {
 
